@@ -1,0 +1,95 @@
+.task {
+    margin-bottom: 10px;
+    max-width: 720px;
+    min-height: 68px;
+    display: flex;
+    border: 1px solid rgba(37, 37, 41, 1);
+    background-color: #17171A;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.visually_hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    white-space: nowrap;
+}
+  
+label span {
+    display: inline-block;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+  
+input[type='checkbox'] + span {
+    cursor: pointer;
+    border-radius: 2px;
+    width: 15px;
+    height: 15px;
+    border: 1px solid rgba(168, 129, 230, 1);
+}
+
+input[type='checkbox']:hover + span {
+    background: rgba(82, 52, 128, 1);
+}
+
+input[type='checkbox']:checked + span {
+    border: 1px solid rgba(78, 153, 94, 1);
+    background: rgba(78, 153, 94, 1);
+    background-image: url(../../images/vector.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main {
+    margin-left: 10px;
+    align-items: center;
+    display: flex;
+}
+
+.information {
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.product__name {
+    font-weight: 700;
+    margin: 0;
+    color: white;
+    font-size: 14px;
+}
+
+.product__quantity {
+    margin: 0;
+    color: white;
+    font-size: 12px;
+}
+
+.delete {
+    margin-left: 10px;
+    cursor: pointer;
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    background-image: url(../../images/icons8-trash-32.png);
+    width: 25px;
+    height: 25px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}

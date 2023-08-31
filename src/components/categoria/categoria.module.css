@@ -1,0 +1,19 @@
+.main {
+    max-width: 98px;
+    border-radius: 20px;
+    display: flex;
+    height: 32px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px 15px;
+}
+
+.text {
+    margin: 0 0 0 3px;
+    font-size: 12px;
+    font-weight: 600px;
+}
+
+.image {
+    background-size: contain;
+}
