@@ -1,10 +1,11 @@
 import { Main } from '../../pages/main/main';
 import React from 'react';
-import { InputName } from '../input-name/input-name';
+
+import { InputQuantity } from '../input-quantity/input-quantity';
 
 function App() {
   return (
-    <InputName />
+    <InputQuantity />
   );
 }
 
