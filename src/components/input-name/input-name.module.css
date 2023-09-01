@@ -1,0 +1,40 @@
+.main {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.input {
+    width: 232px;
+    height: 40px;
+    background: #111112;
+    border: 1px solid #252529;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    font-weight: 400px;
+}
+
+.label {
+    margin-bottom: 10px;
+    color: #AFABB6;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+input[type='text']:focus {
+    outline-color: #A881E6; 
+    outline-style: solid;
+    outline-width: 1px; 
+}
+
+input[type='text']:focus + .label{
+    color: #A881E6;
+  }
+
+
+
+
+
+
+ 
+
