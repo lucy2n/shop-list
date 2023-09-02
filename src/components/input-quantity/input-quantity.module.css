@@ -13,7 +13,7 @@
     height: 40px;
     background: #111112;
     border: 1px solid #252529;
-    border-radius: 10px 0 0 10px;
+    border-radius: 5px 0 0 5px;
     color: white;
     font-size: 14px;
     font-weight: 400px;
@@ -33,7 +33,7 @@ input[type='text']:focus {
     height: 44px;
     background: #17171A;
     border: 1px solid #252529;
-    border-radius: 0 10px 10px 0;
+    border-radius: 0 5px 5px 0;
     color: #AFABB6;
     font-size: 14px;
     font-weight: 400px;

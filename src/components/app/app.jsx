@@ -6,7 +6,7 @@ import { InputCategoria } from '../input-categoria/input-categoria';
 
 function App() {
   return (
-    <InputCategoria />
+    <Main />
   );
 }
 

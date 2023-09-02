@@ -1,3 +1,107 @@
-.mb_10 {
-    margin-bottom: 10px;
+.container {
+    max-width: 720px;
+    margin: 10vh auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px
 }
+
+.title {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+
+}
+
+.inputs {
+    justify-content: space-between;
+    display: flex;
+    align-items: end;
+}
+
+.button {
+    cursor: pointer;
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+    background: url(../../images/add.svg);
+}
+
+.wrapper{
+    max-height: 468px;
+    overflow-y: scroll;
+    max-width: 720px
+}
+
+.beef {
+    position: absolute;
+    top: 0px;
+    left: 150px;
+    animation: slidein 10s infinite linear; 
+
+}
+
+.cake {
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    animation: slidein 15s infinite linear; 
+
+}
+
+.ingredient {
+    position: absolute;
+    top: 20px;
+    right: 200px;
+    animation: slidein 15s infinite linear; 
+
+}
+
+.milk {
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    animation: slidein 10s infinite linear; 
+
+}
+
+.egg {
+    position: absolute;
+    top: 0px;
+    right: 160px;
+    animation: slidein 13s infinite linear; 
+
+}
+
+.pizza {
+    position: absolute;
+    top: 70px;
+    left: 100px;
+    animation: slidein 13s infinite linear; 
+
+}
+
+.cheese {
+    position: absolute;
+    top: 0px;
+    left: 250px;
+    animation: slidein 11s infinite linear; 
+
+}
+
+
+@keyframes slidein {
+    from {
+      top: 0;
+    }
+  
+    to {
+      top: 80%;
+    }
+  }
